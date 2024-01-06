@@ -1,6 +1,8 @@
-const TeamPage = () => {
+import React from "react";
+
+const TeamPage = React.forwardRef((props, ref) => {
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-300" ref={ref}>
       <h1 className="text-3xl font-bold p-5 ml-5">Our Team</h1>
       <div className="flex justify-center w-4/5 m-auto flex-col gap-10 p-5">
         <div className="flex justify-around">
@@ -30,6 +32,6 @@ const TeamPage = () => {
       </div>
     </div>
   );
-};
+});
 
 export default TeamPage;
