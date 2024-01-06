@@ -5,6 +5,8 @@ export default {
     extend: {
       backgroundImage: {
         forest: "url('/images/homepage-img.jpg')",
+        employee1: "url('/images/employee1.jpg')",
+        employee2: "url('/images/employee2.jpg')",
       },
     },
   },
