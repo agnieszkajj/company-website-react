@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <div className=" w-[960px] m-auto">
+    <div className="w-[960px] m-auto">
       <Navbar
         handleClickServices={handleClickServices}
         handleClickAbout={handleClickAbout}

@@ -2,7 +2,7 @@ import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between bg-zinc-600 h-[10vh] items-center p-5">
+    <div className="flex justify-between bg-zinc-700 h-[10vh] items-center p-5">
       <div>
         <h1 className="font-bold text-white">
           Company name - all rights reserved, 2023
