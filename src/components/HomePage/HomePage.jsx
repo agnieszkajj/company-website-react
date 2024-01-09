@@ -1,3 +1,5 @@
+import styles from "./HomePage.module.css";
+
 const HomePage = () => {
   return (
     <div className="bg-forest h-[90vh] bg-cover flex items-center justify-center">
@@ -10,7 +12,7 @@ const HomePage = () => {
         </p>
         <a
           href="#services"
-          className="text-white hover:bg-white hover:text-black border-white border-2 self-start p-2 w-1/4  font-bold transition duration-1000 ease-in-out"
+          className={` text-white  border-white border-2 self-start p-2 w-1/4  font-bold transition duration-1000 ease-in-out ${styles.aElement}`}
         >
           Our offer
         </a>
