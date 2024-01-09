@@ -2,8 +2,8 @@ import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <div className="bg-forest h-[90vh] bg-cover flex items-center justify-center">
-      <div className="flex flex-col gap-8 w-[960px]">
+    <div className="bg-forest h-[90vh] bg-cover flex items-center justify-center pl-5 md:pl-0">
+      <div className="flex flex-col gap-8 md:w-[960px]">
         <p className="font-bold text-white text-3xl">
           Our company offers the highest quality products!
         </p>

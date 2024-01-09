@@ -2,9 +2,9 @@ import { FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between bg-zinc-700 h-[10vh] items-center p-5">
+    <div className="flex md:justify-between bg-zinc-700 items-center p-5 flex-col md:flex-row">
       <div>
-        <p className="font-bold text-white">
+        <p className="font-bold text-white mb-3 md:mb-0">
           Company name - all rights reserved, 2023
         </p>
       </div>

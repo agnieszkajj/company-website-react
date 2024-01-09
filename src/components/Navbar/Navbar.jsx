@@ -5,7 +5,7 @@ const Navbar = () => {
         <p className="font-bold text-white p-5">my company</p>
       </div>
       <div>
-        <div className="flex gap-5  text-white p-5">
+        <div className="flex gap-5  text-white p-5 collapse md:visible">
           <a href="#teamPage">About us</a>
           <a href="#services">Services</a>
           <a disabled className="cursor-not-allowed">

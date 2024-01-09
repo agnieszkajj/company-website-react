@@ -3,7 +3,7 @@ import styles from "./SingleOffer.module.css";
 const SingleOffer = ({ offer }) => {
   return (
     <div
-      className={`bg-white h-[150px] w-[150px] flex justify-center items-center flex-col relative  transition ease-linear duration-500 ${styles.divElement}`}
+      className={`bg-white h-[200px] w-[200px] flex justify-center items-center flex-col relative  transition ease-linear duration-500 ${styles.divElement}`}
     >
       <p>{offer.name}</p>
       {offer.isNew && (
