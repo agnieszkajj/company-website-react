@@ -7,26 +7,12 @@ import Services from "./components/Services/Services.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
-  const ref = useRef(null);
-  const ref2 = useRef(null);
-
-  const handleClickServices = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
-  };
-  const handleClickAbout = () => {
-    ref2.current?.scrollIntoView({ behavior: "smooth" });
-    console.log(ref2);
-  };
-
   return (
-    <div className="w-[960px] m-auto">
-      <Navbar
-        handleClickServices={handleClickServices}
-        handleClickAbout={handleClickAbout}
-      ></Navbar>
-      <HomePage handleClickServices={handleClickServices}></HomePage>
-      <TeamPage ref={ref2}></TeamPage>
-      <Services ref={ref}></Services>
+    <div>
+      <Navbar></Navbar>
+      <HomePage></HomePage>
+      <TeamPage></TeamPage>
+      <Services></Services>
       <Footer></Footer>
     </div>
   );

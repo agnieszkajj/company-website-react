@@ -1,16 +1,16 @@
-const Navbar = ({ handleClickServices, handleClickAbout }) => {
+const Navbar = () => {
   return (
     <nav className="flex justify-between bg-zinc-600 h-[10vh]">
       <div>
-        <h1 className="font-bold text-white p-5">my company</h1>
+        <p className="font-bold text-white p-5">my company</p>
       </div>
       <div>
         <div className="flex gap-5  text-white p-5">
-          <button onClick={handleClickAbout}>About us</button>
-          <button onClick={handleClickServices}>Services</button>
-          <button disabled className="cursor-not-allowed">
+          <a href="#teamPage">About us</a>
+          <a href="#services">Services</a>
+          <a disabled className="cursor-not-allowed">
             Contact
-          </button>
+          </a>
         </div>
       </div>
     </nav>

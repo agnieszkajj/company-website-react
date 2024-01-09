@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <div className="flex justify-between bg-zinc-700 h-[10vh] items-center p-5">
       <div>
-        <h1 className="font-bold text-white">
+        <p className="font-bold text-white">
           Company name - all rights reserved, 2023
-        </h1>
+        </p>
       </div>
       <div>
         <div className="flex gap-5  text-white">
