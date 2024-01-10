@@ -12,7 +12,7 @@ const HomePage = () => {
         </p>
         <a
           href="#services"
-          className={` text-white  border-white border-2 self-start p-2 w-1/4  font-bold transition duration-1000 ease-in-out ${styles.aElement}`}
+          className={`text-white text-center border-white border-2 self-start p-2 w-1/4  font-bold transition duration-1000 ease-in-out ${styles.aElement}`}
         >
           Our offer
         </a>

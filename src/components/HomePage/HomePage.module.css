@@ -1,4 +1,6 @@
-.aElement:hover {
-  color: black;
-  background-color: white;
+@media (hover: hover) {
+  .aElement:hover {
+    color: black;
+    background-color: white;
+  }
 }

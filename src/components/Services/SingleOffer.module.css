@@ -1,3 +1,5 @@
-.divElement:hover {
-  transform: scale(1.05);
+@media (hover: hover) {
+  .divElement:hover {
+    transform: scale(1.05);
+  }
 }
